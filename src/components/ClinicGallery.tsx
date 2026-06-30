@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Maximize2, Sparkles, Star } from "lucide-react";
 import { LightboxModal } from "./Modals";
-import { cdnImg } from "../lib/img";
+import { cdnImg, cdnSrcSet } from "../lib/img";
 
 export default function ClinicGallery() {
   const [lightboxData, setLightboxData] = useState<{
@@ -76,7 +76,9 @@ export default function ClinicGallery() {
             >
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden mb-6 bg-zinc-900 border border-white/5 shadow-lg group-hover:border-primary/20 transition-all duration-500">
                 <img
-                  src={cdnImg(loc.image, 760)}
+                  src={cdnImg(loc.image, 600)}
+                  srcSet={cdnSrcSet(loc.image, [400, 600, 800])}
+                  sizes="(min-width: 768px) 380px, 90vw"
                   alt={loc.title}
                   loading="lazy"
                   decoding="async"

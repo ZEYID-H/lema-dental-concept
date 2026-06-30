@@ -11,3 +11,11 @@ export function cdnImg(url: string, width: number): string {
   if (/=[ws]\d+/.test(url)) return url;
   return `${url}=w${width}-rw`;
 }
+
+/**
+ * Builds a responsive `srcset` of WebP variants so the browser can pick the
+ * smallest image that fits the device — major byte savings on mobile.
+ */
+export function cdnSrcSet(url: string, widths: number[]): string {
+  return widths.map((w) => `${cdnImg(url, w)} ${w}w`).join(", ");
+}

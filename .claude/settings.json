@@ -12,7 +12,10 @@
       "Bash(curl -s -o /dev/null -w 'bytes=%{size_download} type=%{content_type}\\\\n' __TRACKED_VAR__=w400-rw)",
       "Bash(curl -s -H 'Accept: image/webp,*/*' -o /dev/null -w 'bytes=%{size_download} type=%{content_type}\\\\n' __TRACKED_VAR__=w800)",
       "Bash(cd \"c:/Users/zeedp/Downloads/lema-dental-clinic\" && mkdir -p src/lib && echo created)",
-      "Bash(echo \"lint exit:$?\")"
+      "Bash(echo \"lint exit:$?\")",
+      "Bash(node \"C:/Users/zeedp/AppData/Local/Temp/claude/c--Users-zeedp-Downloads-lema-dental-clinic/15f64136-914f-4191-99cc-1657a4cb8412/scratchpad/fetch-fonts.mjs\")",
+      "Bash(node -e ' *)",
+      "Bash(node \"C:/Users/zeedp/AppData/Local/Temp/claude/c--Users-zeedp-Downloads-lema-dental-clinic/15f64136-914f-4191-99cc-1657a4cb8412/scratchpad/fonts.mjs\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\zeedp\\Downloads\\lema-dental-clinic\\src"
