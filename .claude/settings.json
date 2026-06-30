@@ -15,7 +15,15 @@
       "Bash(echo \"lint exit:$?\")",
       "Bash(node \"C:/Users/zeedp/AppData/Local/Temp/claude/c--Users-zeedp-Downloads-lema-dental-clinic/15f64136-914f-4191-99cc-1657a4cb8412/scratchpad/fetch-fonts.mjs\")",
       "Bash(node -e ' *)",
-      "Bash(node \"C:/Users/zeedp/AppData/Local/Temp/claude/c--Users-zeedp-Downloads-lema-dental-clinic/15f64136-914f-4191-99cc-1657a4cb8412/scratchpad/fonts.mjs\")"
+      "Bash(node \"C:/Users/zeedp/AppData/Local/Temp/claude/c--Users-zeedp-Downloads-lema-dental-clinic/15f64136-914f-4191-99cc-1657a4cb8412/scratchpad/fonts.mjs\")",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(python -c \"import fontTools; print\\('fonttools', fontTools.version\\)\")",
+      "Bash(python -c \"import brotli; print\\('brotli ok'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(node \"C:/Users/zeedp/AppData/Local/Temp/claude/c--Users-zeedp-Downloads-lema-dental-clinic/15f64136-914f-4191-99cc-1657a4cb8412/scratchpad/subset.mjs\")",
+      "Bash(pip install *)",
+      "Bash(python -c \"import brotli; print\\('brotli OK'\\)\")",
+      "Bash(awk 'NR>1{print $5, $9}')"
     ],
     "additionalDirectories": [
       "c:\\Users\\zeedp\\Downloads\\lema-dental-clinic\\src"
