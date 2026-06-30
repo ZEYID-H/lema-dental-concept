@@ -6,7 +6,16 @@
       "Bash(npx tsc *)",
       "Bash(curl -s -o /dev/null -w \"server:%{http_code}\\\\n\" http://localhost:3000/)",
       "Bash(echo \"=== done \\($?\\) ===\")",
-      "Bash(echo \"tsc:$?\")"
+      "Bash(echo \"tsc:$?\")",
+      "Bash(node -e \"const p=require\\('./package.json'\\); console.log\\(JSON.stringify\\(p.scripts,null,1\\)\\); console.log\\('deps:',Object.keys\\(p.dependencies\\)\\); console.log\\('dev:',Object.keys\\(p.devDependencies\\)\\)\")",
+      "Bash(curl -s -o /dev/null -w 'bytes=%{size_download} type=%{content_type}\\\\n' __TRACKED_VAR__=w800-rw)",
+      "Bash(curl -s -o /dev/null -w 'bytes=%{size_download} type=%{content_type}\\\\n' __TRACKED_VAR__=w400-rw)",
+      "Bash(curl -s -H 'Accept: image/webp,*/*' -o /dev/null -w 'bytes=%{size_download} type=%{content_type}\\\\n' __TRACKED_VAR__=w800)",
+      "Bash(cd \"c:/Users/zeedp/Downloads/lema-dental-clinic\" && mkdir -p src/lib && echo created)",
+      "Bash(echo \"lint exit:$?\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\zeedp\\Downloads\\lema-dental-clinic\\src"
     ]
   }
 }

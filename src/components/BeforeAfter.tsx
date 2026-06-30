@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Sparkles, MoveHorizontal } from "lucide-react";
+import { cdnImg } from "../lib/img";
 
 interface Pair {
   id: string;
@@ -75,7 +76,7 @@ function CompareSlider({ pair }: { pair: Pair }) {
     >
       {/* AFTER (base layer) */}
       <img
-        src={pair.after}
+        src={cdnImg(pair.after, 1024)}
         alt={`${pair.title} – after treatment`}
         loading="lazy"
         decoding="async"
@@ -92,7 +93,7 @@ function CompareSlider({ pair }: { pair: Pair }) {
         style={{ width: `${position}%` }}
       >
         <img
-          src={pair.before}
+          src={cdnImg(pair.before, 1024)}
           alt={`${pair.title} – before treatment`}
           loading="lazy"
           decoding="async"

@@ -46,7 +46,7 @@ export default function InteractiveMap({ activeBranch }: InteractiveMapProps) {
               <div 
                 className="w-full h-full bg-cover bg-center filter grayscale contrast-[1.1] brightness-[0.4]"
                 style={{
-                  backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuAXvZIIZraUsXekwny6g3klavCzn4o9gO4nBfZqyVp5BRyOq7nXnlJuJuJxq-Bo8Csxo2wW5eFrGhspTEqXtNGNeXLG7i1H2yEMh6MC4ccv-KF21cdN24bX3i0s_oU5XGM1kTdCS3POwjY41sP_c8Q61SzXEbqM20B41ej8PNJyjQQ9DTYFPLA5137orG89h1f0ilBs4KpVtyrmIt8AIj4qGqyYtvseSVypWcdDb9Z5DAkGMuhEYi1lzE_Ma1nrWnxnmzCQ_iMD5gI')`
+                  backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuAXvZIIZraUsXekwny6g3klavCzn4o9gO4nBfZqyVp5BRyOq7nXnlJuJuJxq-Bo8Csxo2wW5eFrGhspTEqXtNGNeXLG7i1H2yEMh6MC4ccv-KF21cdN24bX3i0s_oU5XGM1kTdCS3POwjY41sP_c8Q61SzXEbqM20B41ej8PNJyjQQ9DTYFPLA5137orG89h1f0ilBs4KpVtyrmIt8AIj4qGqyYtvseSVypWcdDb9Z5DAkGMuhEYi1lzE_Ma1nrWnxnmzCQ_iMD5gI=w1280-rw')`
                 }}
               />
             ) : mapStyle === "minimal" ? (
@@ -62,7 +62,7 @@ export default function InteractiveMap({ activeBranch }: InteractiveMapProps) {
               <div 
                 className="w-full h-full bg-[#111111] bg-cover bg-center relative"
                 style={{
-                  backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuAXvZIIZraUsXekwny6g3klavCzn4o9gO4nBfZqyVp5BRyOq7nXnlJuJuJxq-Bo8Csxo2wW5eFrGhspTEqXtNGNeXLG7i1H2yEMh6MC4ccv-KF21cdN24bX3i0s_oU5XGM1kTdCS3POwjY41sP_c8Q61SzXEbqM20B41ej8PNJyjQQ9DTYFPLA5137orG89h1f0ilBs4KpVtyrmIt8AIj4qGqyYtvseSVypWcdDb9Z5DAkGMuhEYi1lzE_Ma1nrWnxnmzCQ_iMD5gI')`
+                  backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuAXvZIIZraUsXekwny6g3klavCzn4o9gO4nBfZqyVp5BRyOq7nXnlJuJuJxq-Bo8Csxo2wW5eFrGhspTEqXtNGNeXLG7i1H2yEMh6MC4ccv-KF21cdN24bX3i0s_oU5XGM1kTdCS3POwjY41sP_c8Q61SzXEbqM20B41ej8PNJyjQQ9DTYFPLA5137orG89h1f0ilBs4KpVtyrmIt8AIj4qGqyYtvseSVypWcdDb9Z5DAkGMuhEYi1lzE_Ma1nrWnxnmzCQ_iMD5gI=w1280-rw')`
                 }}
               >
                 <div className="absolute inset-0 bg-[#111111]/70 mix-blend-multiply" />

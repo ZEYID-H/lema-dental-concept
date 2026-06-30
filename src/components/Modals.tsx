@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { X, Upload, Calendar, Phone, CheckCircle2, Shield, Sparkles } from "lucide-react";
 import { branches, treatments } from "../data";
+import { cdnImg } from "../lib/img";
 
 interface ModalProps {
   isOpen: boolean;
@@ -604,9 +605,11 @@ export function LightboxModal({ isOpen, onClose, image, title, description }: Li
 
         {/* Image portion */}
         <div className="w-full md:w-3/5 aspect-video md:aspect-square relative bg-black flex items-center justify-center">
-          <img 
-            src={image} 
+          <img
+            src={cdnImg(image, 1024)}
             alt={title}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover"
           />
         </div>
