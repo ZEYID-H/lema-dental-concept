@@ -25,7 +25,7 @@ export default function InteractiveMap({ activeBranch }: InteractiveMapProps) {
   return (
     <section id="map-section" className="py-16 bg-zinc-950 relative overflow-hidden z-10">
       {/* Absolute glow */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] pointer-events-none hidden sm:block" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="mb-12">
@@ -72,7 +72,7 @@ export default function InteractiveMap({ activeBranch }: InteractiveMapProps) {
           </div>
 
           {/* Interactive Radar Scanning Overlay (for dark sci-fi lux feel) */}
-          <div className="absolute inset-0 pointer-events-none opacity-20">
+          <div className="absolute inset-0 pointer-events-none opacity-20 hidden sm:block">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full border border-primary/20 animate-pulse" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full border border-primary/10" />
           </div>

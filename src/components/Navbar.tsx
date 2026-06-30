@@ -38,7 +38,7 @@ export default function Navbar({ onOpenBooking }: NavbarProps) {
       <nav 
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 border-b ${
           isScrolled 
-            ? "bg-zinc-950/80 backdrop-blur-xl border-white/5 py-4 shadow-xl" 
+            ? "bg-zinc-950/95 max-md:backdrop-blur-none backdrop-blur-xl border-white/5 py-4 shadow-xl"
             : "bg-transparent border-transparent py-6"
         }`}
       >

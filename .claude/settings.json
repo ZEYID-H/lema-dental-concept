@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm install *)",
-      "Bash(start http://localhost:3000/)"
+      "Bash(start http://localhost:3000/)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s -o /dev/null -w \"server:%{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(echo \"=== done \\($?\\) ===\")",
+      "Bash(echo \"tsc:$?\")"
     ]
   }
 }

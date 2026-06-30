@@ -69,7 +69,7 @@ export default function FloatingCTA({
       </div>
 
       {/* 2. Mobile Bottom Navigation Bar (Hidden on Desktop, sticks flatly to the viewport bottom) */}
-      <div className="fixed bottom-0 left-0 w-full z-50 md:hidden bg-zinc-950/90 backdrop-blur-2xl border-t border-white/10 flex justify-around items-center h-18 px-4 shadow-xl">
+      <div className="fixed bottom-0 left-0 w-full z-50 md:hidden bg-zinc-950 border-t border-white/10 flex justify-around items-center h-[68px] px-4 shadow-xl pb-[env(safe-area-inset-bottom)]">
         <button 
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="flex flex-col items-center justify-center text-on-surface-variant hover:text-white p-2 transition-all"

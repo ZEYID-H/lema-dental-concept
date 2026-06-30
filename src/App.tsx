@@ -5,6 +5,7 @@ import BranchSelector from "./components/BranchSelector";
 import InteractiveMap from "./components/InteractiveMap";
 import ContactCards from "./components/ContactCards";
 import ClinicGallery from "./components/ClinicGallery";
+import BeforeAfter from "./components/BeforeAfter";
 import Certifications from "./components/Certifications";
 import FloatingCTA from "./components/FloatingCTA";
 import Footer from "./components/Footer";
@@ -63,6 +64,9 @@ export default function App() {
 
       {/* Clinic Gallery Showcase ("Largest Clinic in Europe") */}
       <ClinicGallery />
+
+      {/* Before & After Smile Transformations (drag-to-compare slider) */}
+      <BeforeAfter />
 
       {/* Accreditations & Certifications */}
       <Certifications />

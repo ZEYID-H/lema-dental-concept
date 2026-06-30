@@ -33,8 +33,8 @@ export default function Hero({ onOpenBooking, onOpenWhatsApp }: HeroProps) {
     <section className="relative pt-32 pb-16 md:pt-48 md:pb-24 overflow-hidden min-h-[90vh] flex flex-col justify-between">
       {/* Cinematic Gold Backdrop Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] md:w-[900px] md:h-[900px] opacity-[0.12] pointer-events-none rounded-full blur-[120px] bg-gradient-to-tr from-primary to-transparent" />
-      <div className="absolute top-[45%] left-[10%] w-[300px] h-[300px] opacity-[0.06] pointer-events-none rounded-full blur-[100px] bg-primary-container" />
-      <div className="absolute bottom-0 right-[15%] w-[400px] h-[400px] opacity-[0.05] pointer-events-none rounded-full blur-[130px] bg-primary" />
+      <div className="absolute top-[45%] left-[10%] w-[300px] h-[300px] opacity-[0.06] pointer-events-none rounded-full blur-[100px] bg-primary-container hidden sm:block" />
+      <div className="absolute bottom-0 right-[15%] w-[400px] h-[400px] opacity-[0.05] pointer-events-none rounded-full blur-[130px] bg-primary hidden sm:block" />
 
       {/* Decorative vertical background lines for ultra-luxe architectural look */}
       <div className="absolute inset-0 flex justify-between px-12 md:px-24 pointer-events-none opacity-[0.02]">
